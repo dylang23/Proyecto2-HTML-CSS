@@ -29,6 +29,8 @@ html {
     font-family: 'DM Sans', sans-serif;
 }
 
+/* SECCION HEADER */
+
 header {
     position: relative;
     display: flex;
@@ -56,20 +58,22 @@ header img {
     margin-top: 40px;
 }
 
-.header__title-container h1{
+.header__title-container h1 {
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 2.6rem;
     color: var(--just-white);
 }
-.header__title-container p{
+
+.header__title-container p {
     margin-top: 25px;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
     color: var(--soft-orange);
 }
-.header__title-container .header__button{
+
+.header__title-container .header__button {
     position: absolute;
     display: block;
     left: 50%;
@@ -87,14 +91,67 @@ header img {
     border-radius: 5px;
     font-size: 1.4rem;
     font-weight: bold;
-    text-decoration: none; 
+    text-decoration: none;
     color: var(--black);
 }
 
-.header__button span{
+.header__button span {
     display: inline-block;
     width: 13px;
     height: 8px;
     margin-left: 10px;
     background-image: url('./assets/icons/down-arrow.svg');
 }
+
+
+main{
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+
+/* SECCIÓN CRYPTO PRICES */
+.crypto-prices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    min-width: 320px;
+    padding-top: 5rem;
+}
+
+.crypto-prices__image {
+    width: 195px;
+    height: 195px;
+    margin-bottom: 50px;
+    background-image: url('./assets/img/Bitcoin.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.crypto-prices__title {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.crypto-prices__title h2 {
+    color: var(--warm-black);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+}
+.crypto-prices__title p {
+    margin-top: 25px;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
