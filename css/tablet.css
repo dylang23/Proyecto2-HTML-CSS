@@ -1,0 +1,10 @@
+.plan-cards-slider{
+    justify-content: center;
+}
+.beneficios__cards{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    width: 930px;
+    flex-wrap: wrap;
+}
