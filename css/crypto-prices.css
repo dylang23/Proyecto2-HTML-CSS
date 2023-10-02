@@ -1,0 +1,130 @@
+.crypto-prices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    min-width: 320px;
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+}
+
+.crypto-prices__image {
+    width: 195px;
+    height: 195px;
+    margin-bottom: 50px;
+    background-image: url('../assets/img/Bitcoin.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.crypto-prices__title {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.crypto-prices__title h2 {
+    color: var(--warm-black);
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+}
+
+.crypto-prices__title p {
+    margin-top: 25px;
+    color: #757575;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+}
+
+/* Contenedor de las tablas */
+.tables-container {
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.exchanges-table-container {
+    min-width: 235px;
+    max-width: 500px;
+    width: 70%;
+    height: 360px;
+    margin: 0 auto;
+}
+
+.exchanges-table {
+    background-color: var(--just-white);
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    border-collapse: separate;
+    /* Asegura que los bordes redondeados funcionen */
+    border-radius: 15px;
+    /* Aplica esquinas redondeadas a la tabla */
+    overflow: hidden;
+}
+
+.exchanges-table__title {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    color: #FF9536;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 2.3rem;
+    text-align: left;
+}
+
+td {
+    padding: 1.1rem 1.2rem;
+}
+
+.exchanges-table__currency-name {
+    color: #B5B0AC;
+    font-family: Inter;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.02rem;
+}
+
+.exchanges-table__price {
+    color: #757575;
+    display: inline-flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -2%;
+}
+
+.crypto-prices__update-date {
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    padding: 0.8rem;
+    text-align: center;
+    background-color: var(--soft-orange);
+    border-radius: 0.8rem;
+}
+
+.crypto-prices__update-date p {
+    font-family: Inter;
+    color: var(--warm-black);
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+}

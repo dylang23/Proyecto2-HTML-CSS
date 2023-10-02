@@ -1,0 +1,86 @@
+.beneficios {
+    position: relative;
+    background-color: var(--warm-black);
+    width: 100%;
+    min-width: 320px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-family: 'DM Sans';
+}
+
+.beneficios__image {
+    position: absolute;
+    left: calc(50% - 20px);
+    width: 40px;
+    height: 25px;
+    top: -1.1rem;
+    background-image: url('./assets/icons/batata.svg');
+}
+
+.beneficios__title {
+    text-align: center;
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.beneficios__title h2 {
+    color: var(--just-white);
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 2.6rem;
+}
+
+.beneficios__title p {
+    margin-top: 1.5625rem;
+    color: #757575;
+    text-align: center;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+
+.beneficios__cards {
+    width: 90%;
+    margin: 0 auto
+}
+
+.beneficio_card {
+    padding: 1.1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    width: 100%;
+    min-height: 15.2rem;
+    min-width: 288px;
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+    background-color: var(--black);
+}
+
+.beneficio_card img {
+    margin-top: 2px;
+    margin-bottom: 15px;
+}
+
+.beneficio_card h3 {
+    margin-bottom: 15px;
+    color: var(--just-white);
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.8rem;
+}
+
+.beneficio_card p {
+    margin-bottom: 15px;
+    color: #808080;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
